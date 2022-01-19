@@ -1,0 +1,45 @@
+
+
+.header{
+    background-color: aliceblue;
+    height:100px;
+    display: flex;
+    margin: 0;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav a{
+    text-decoration: none;
+    padding: 5vh;
+}
+main{
+
+   display:flex;
+   height:68vh;
+   justify-content: center;
+}
+table{
+    width: 100%;
+}
+ td{
+    border: 1px solid black;
+ }
+.red{
+    background-color: crimson;
+    width: 50%;
+}
+.green{
+    background-color: chartreuse;
+    width: 50%;
+}
+.items_task{
+    width: 50%;
+}
+footer{
+    background-color: brown;
+    height: 100px;
+    display: flex;
+    background-color: aliceblue;
+    justify-content: center;
+}

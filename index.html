@@ -5,46 +5,46 @@
     <meta http-equiv='X-UA-Compatible' content='IE=edge'>
     <title>ToDo</title>
     <meta name='viewport' content='width=device-width, initial-scale=1'>
-    <style>
-        table, td {
-          border:1px solid black;
-        }
-        </style>
+    <link rel="stylesheet" href="style/index.css">
+   
 </head>
 <body>
-    <header>
- <div><img width=50 height=50 src="assets/photo.png"></div>      
+    <header class="header">
+ <img width=50 height=50 src="assets/photo.png">   
 
-<div><h1>ToDoList Website</h1></div>    
-
-<a href="About.html">About Page</a>    
-    
+<h1>ToDoList Website</h1>
+<nav>
+<a href="index.html">Home</a>   
+<a href="About.html">About</a>  
+</nav>   
 
     </header>
-    <main>
-<h2>Tasks</h2>
-<table>
+    <main class="main">
+      <div>
+<div><h2>Tasks</h2></div>
+<div><table>
     <tr>
-      <td>The first Task</td>
-      <td>Completed</td>
+      <td class="items_task">The first Task</td>
+      <td class="green"></td>
     </tr>
 
     <tr>
-        <td>The second Task</td>
-        <td>unfinished</td>
+        <td class="items_task">The second Task</td>
+        <td class="red"></td>
       </tr>
 
       <tr>
-        <td>The second Task</td>
-        <td>unfinished</td>
+        <td class="items_task">The third Task</td>
+        <td class="red"></td>
       </tr>
 
       <tr>
-        <td>The second Task</td>
-        <td>unfinished</td>
+        <td class="items_task">The fourth Task</td>
+        <td class="red"></td>
       </tr>
   </table>
-
+</div>
+</div>
     </main>
     <footer>
     <p>&copy; todolist 2022</p>

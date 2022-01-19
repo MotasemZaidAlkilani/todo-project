@@ -5,35 +5,41 @@
     <meta http-equiv='X-UA-Compatible' content='IE=edge'>
     <title>About</title>
     <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel="stylesheet" href="style/about.css">
+
 </head>
 <body>
-    <header>
-<img width=50 height=50 src="assets/photo.png">
-
-<div><h1>ToDoList Website</h1></div>  
-
-<a href="index.html">main Page</a> 
-    </header>
+    <header class="header">
+        <img width=50 height=50 src="assets/photo.png">   
+       
+       <h1>ToDoList Website</h1>
+       <nav>
+       <a href="index.html">Home</a>   
+       <a href="About.html">About</a>  
+       </nav>   
+       
+           </header>
     <main>
+    <div>
 <section>
-    <img width=100 height=100 src="assets/my_picture.jpg">
-    <p>name : motasem kilany</p>
-    <p>description : i am 22 old , i live in as-salt ,<br>
-    i studied software engineer </p>
+    <img width=200 height=150 src="assets/picture-logo.png">
+    <p>Your name</p>
+    <p class="descrive">desvribe yourself here </p>
 </section>
 
-<section>
+<section >
     <form >
         <label >name</label><br>
-        <input type ="text" ><br>
+        <input  type ="text" ><br>
         <label >email</label><br>
         <input type ="email" ><br>
         <label >message</label><br>
-        <input type ="text" ><br>
-        <input type ="submit">
+        <input class="padding"type ="text" ><br>
+        <input style="margin-top: 10px;"type ="submit">
 
     </form>
 </section>
+</div>
     </main>
     <footer>
         <p>&copy; todolist 2022</p>
