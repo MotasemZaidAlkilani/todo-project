@@ -13,18 +13,30 @@ while(age<=0){
   alert("age is uncurrect")
    age=prompt("Enter your age again");
 }
+
 let marriage_status_var=prompt("are u single ? (yes/no)");
 let country_var=prompt("country u live ?");
 let city_var=prompt("city u live ?");
 let array=[name,gender,age,marriage_status(marriage_status_var),country(country_var),city(city_var)];
 let welcome_message=confirm("do u want to skip welcome message ?");
+
+
+
+
+
+
+
+
+
+
 if(welcome_message===true){
 alert("Goodbye");
 }
-else {
-    if(gender==="male"){
-    alert("hello Mr "+name );
-    }
+
+else if(welcome_message===false){
+    if(gender==="Male"){
+    alert("hello Mr "+name);}
+
     else if(gender==="female"){
         alert("hello Ms "+name);
         }
