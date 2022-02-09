@@ -2,5 +2,8 @@
 
 <img src="todolist wireframe.jpg">
 
-I don't have a question about this task.
-this task took me 1 hour, and I knew that will take me 1 hour.
+
+For this task ,i dont have any question .
+
+This task was easy , i remember took me to finish it about an hour.
+
