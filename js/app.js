@@ -4,11 +4,11 @@ age=prompt("Enter your age");
 if(age<=0){
   alert("age is uncurrect")
 }
-welcome_message=prompt("do u want to skip welcome message ?(y/n)");
-if(welcome_message==='y'){
+welcome_message=confirm("do u want to skip welcome message ?");
+if(welcome_message===true){
 alert("Goodbye");
 }
-else if(welcome_message==='n'){
+else if(welcome_message===false){
     if(gender==="Male"){
     alert("hello Mr "+name);
     }
