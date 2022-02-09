@@ -1,23 +1,23 @@
-name =prompt("Enter your name");
+let name =prompt("Enter your name");
 while(name == ""){
   alert("Invalid name");
   name =prompt("Enter your name again");
 }
-gender=prompt("Enter your gender?(male/female)");
+let gender=prompt("Enter your gender?(male/female)");
 while((gender !="male") && (gender !="female" )){
   alert("Invalid gender");
-  gender=prompt("Enter your gender again?(male/female)");
+   gender=prompt("Enter your gender again?(male/female)");
 }
-age=prompt("Enter your age");
+let age=prompt("Enter your age");
 while(age<=0){
   alert("age is uncurrect")
-  age=prompt("Enter your age again");
+   age=prompt("Enter your age again");
 }
-marriage_status_var=prompt("are u single ? (yes/no)");
-country_var=prompt("country u live ?");
-city_var=prompt("city u live ?");
-array=[marriage_status(marriage_status_var),country(country_var),city(city_var)];
-welcome_message=confirm("do u want to skip welcome message ?");
+let marriage_status_var=prompt("are u single ? (yes/no)");
+let country_var=prompt("country u live ?");
+let city_var=prompt("city u live ?");
+let array=[name,gender,age,marriage_status(marriage_status_var),country(country_var),city(city_var)];
+let welcome_message=confirm("do u want to skip welcome message ?");
 if(welcome_message===true){
 alert("Goodbye");
 }
@@ -28,11 +28,12 @@ else {
     else if(gender==="female"){
         alert("hello Ms "+name);
         }
-        for(var i=0;i<array.length;i++){
-           console.log(array[i]);
-        }
+       
         
 }
+
+  console.log(array);
+
 
 function marriage_status(marriage_status_var){
   
@@ -49,10 +50,13 @@ return result;
 }
 
 function country(country_variable){
-  if(country_variable ===""){
-    country_variable="invalid";
+  if(country_variable ===null){
+    return "invalid";
   }
-  return country;
+  else{
+    return country_variable;
+  }
+  
 }
 function city(city_variable){
   if(city_variable ===""){
